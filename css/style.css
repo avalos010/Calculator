@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: gray;
+  width: 40%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.screen {
+  background: #CFEFF0;
+  height: 15%;
+  font-size: 2.8em;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+ text-overflow:ellipsis;
+  text-align: right;
+ }
+button {
+  width: 20%;
+  height: 50%;
+  margin-top: 1em;
+  border-radius: 10px;
+  font-size: 2em;
+}
+.operator {
+  background: black;
+  margin-left: 8%;
+  color: #fff;
+ 
+}
+.clear {
+background: red;
+}
+
+.row {
+  height: 20%;
+  margin-left: 1em;
+ }
+
+.equals {
+  background: #000;
+  color: #fff;
+  font-size: 2em;
+  
+}
+
+
