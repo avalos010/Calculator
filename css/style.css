@@ -3,8 +3,8 @@
 }
 .container {
   background: gray;
-  width: 40%;
-  height: 80vh;
+  width: 400px;
+  height: 350px;
   margin: auto;
   border-radius: 15px;
 }
