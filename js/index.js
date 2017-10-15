@@ -14,3 +14,14 @@ for(var i = 0; i < button.length; i++) {
     }
   });
 }
+
+
+
+function bgChange() {
+var rand = Math.ceil(Math.random() * 900000) + 100;
+document.body.style.backgroundColor = '#'+rand;
+console.log(rand);
+}
+
+
+setInterval(bgChange,400);
