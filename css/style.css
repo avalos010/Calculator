@@ -2,16 +2,17 @@
   box-sizing: border-box;
 }
 .container {
-  background: gray;
-  width: 350px;
-  height: 350px;
-  margin: auto;
-  border-radius: 15px;
+  background: #425B89;
+  width:  450px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 5em;
+  border-radius: 20px;
 }
 
 .screen {
   background: #CFEFF0;
-  height: 15%;
+  height: 1.5em;
   font-size: 2.8em;
   width: 80%;
   margin: auto;
@@ -25,7 +26,7 @@ button {
   height: 50%;
   margin-top: 1em;
   border-radius: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .operator {
   background: black;
@@ -33,12 +34,18 @@ button {
   color: #fff;
  
 }
+button:hover {
+  opacity: .5;
+  font-weight: bold;
+}
 .clear {
 background: red;
+font-size: 1.5em;
+color: #fff;
 }
 
 .row {
-  height: 20%;
+  height: 95px;
   margin-left: 1em;
  }
 
@@ -49,4 +56,11 @@ background: red;
   
 }
 
-
+@media (max-width: 600px) {
+.container {
+  width: 15em;
+}
+.clear {
+  font-size: 1.2em;
+}
+}
